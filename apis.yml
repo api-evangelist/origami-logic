@@ -23,12 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/origami-logic.png
 name: Origami Logic
-description: 'Origami Logic was a marketing-intelligence / big-data analytics company (backed by
-  Accel and Lightspeed Venture Partners) surfaced as a VC-portfolio lead in the API Evangelist network.
-  As of the 2026-07-20 enrichment pass the origamilogic.com web surface is defunct: DNS resolves only
-  Google Workspace mail (MX + SPF/DMARC) with no A record on the apex or www host, so there is no live
-  website, developer portal, documentation, or API surface to enrich. Domain-security posture was probed
-  and recorded; no other public API artifacts exist. Retained as a historical company profile.'
+description: 'Origami Logic was a marketing-intelligence / big-data analytics company (backed by Accel
+  and Lightspeed Venture Partners) surfaced as a VC-portfolio lead in the API Evangelist network. As of
+  the 2026-07-20 enrichment pass the origamilogic.com web surface is defunct: DNS resolves only Google
+  Workspace mail (MX + SPF/DMARC) with no A record on the apex or www host, so there is no live website,
+  developer portal, documentation, or API surface to enrich. Domain-security posture was probed and recorded;
+  no other public API artifacts exist. Retained as a historical company profile.'
 url: https://raw.githubusercontent.com/api-evangelist/origami-logic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Big Data
@@ -63,3 +63,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-status: defunct
